@@ -1,3 +1,3 @@
-FROM python:latest
-RUN pip install numpy scipy
+FROM iwane/numpy
+RUN pip install scipy
 CMD ["/bin/bash"]
